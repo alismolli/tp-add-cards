@@ -36,6 +36,7 @@ button:hover{
     border-radius: 10px;
     margin-bottom: 32px;
     overflow: hidden;
+    box-shadow: 1px 6px 6px 3px rgb(189, 110, 159);
 }
 .image-container{
     width: 100%;

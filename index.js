@@ -9,7 +9,7 @@ const createCardNode = ()=>{
     imageContainer.className = "image-container"
     const parrafo = document.createElement("p")
     parrafo.className = "description"
-    const text = document.createTextNode('Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias perferendis ex, repudiandae dolorum illo illum itaque autem eveniet corporis et obcaecati est provident assumenda fuga aut debitis ab vel voluptas.')
+    const text = document.createTextNode('J ai deux amours Mon pays et Paris Par eux toujours Mon coeur est ravi Ma savane est belle Mais à quoi bon le nier Ce qui mensorcelle Cest Paris, Paris tout entier Le voir un jour Cest mon rêve joli Jai deux amours')
     parrafo.appendChild(text)
     const card = document.createElement("div")
     card.className="card"
