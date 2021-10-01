@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: rgb(247, 246, 217);
+}
+
+h1{
+    text-align: center;
+    color: #4b9696;
+}
+.main{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    background-color: rgb(189, 103, 146);
+    border: 1px solid rgb(224, 255, 183);
+    color: rgb(224, 255, 183);
+    height: 32px;
+    border-radius: 5px;
+    margin-bottom: 32px;
+}
+button:hover{
+    background-color: #4b9696;
+    color: white;
+    cursor: pointer;
+}
+.card{
+    max-width: 300px;
+    border: 1px solid #4b9696;
+    border-width: 3px;
+    border-radius: 10px;
+    margin-bottom: 32px;
+    overflow: hidden;
+}
+.image-container{
+    width: 100%;
+}
+.image-container img{
+    width: 100%;
+   
+}
+.description{
+    margin: 16px;
+}
